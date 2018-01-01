@@ -3,7 +3,7 @@ markdown: kramdown
 permalink: pretty
 
 port: 8000
-exclude: ['README.md', 'LICENSE']
+exclude: ['README.md', 'LICENSE', 'gulpfile.js', "package.json", "package-lock.json", "node_modules"]
 
 sass:
   sass_dir: assets/css

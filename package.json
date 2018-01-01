@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/DevSalah101/cv/issues"
   },
-  "homepage": "https://github.com/DevSalah101/cv#readme"
+  "homepage": "https://github.com/DevSalah101/cv#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^7.0.1",
+    "gulp-sass": "^3.1.0",
+    "postcss-uncss": "^0.16.1",
+    "uncss": "^0.16.1"
+  }
 }
