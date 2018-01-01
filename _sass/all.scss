@@ -1,7 +1,2 @@
-*, *::after, *::before {
-	margin: 0;
-	box-sizing: border-box;
-}
-body {
-	font-family: 'Montserrat', sans-serif;
-}
+@import "base/_all";
+@import "layout/_all";
