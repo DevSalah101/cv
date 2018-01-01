@@ -1,5 +1,4 @@
 baseurl: /cv
-markdown: kramdown
 permalink: pretty
 
 port: 8000
