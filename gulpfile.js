@@ -16,6 +16,7 @@ gulp.task("sass", () => {
 		})
 	];
 	return gulp.src("_sass/**/*.scss")
+	.pipe(sass().on('error', sass.logError))
 	.pipe(postcss(plugins))
 	.pipe(gulp.dest("assets/css/"));
 
