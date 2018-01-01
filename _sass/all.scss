@@ -1,7 +1,7 @@
-body {
-	display: flex;
-	text-align: center;
+*, *::after, *::before {
+	margin: 0;
+	box-sizing: border-box;
 }
-h1 {
-	font-weight: 900;
+body {
+	font-family: 'Montserrat', sans-serif;
 }
