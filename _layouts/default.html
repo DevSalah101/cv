@@ -7,13 +7,13 @@
 </head>
 <body>
 	<!-- Start Header Section -->
-	<header id="head" class="my-4">
+	<header id="head" class="my-4 bg-white text-center">
 		<div class="container">
-			<div class="head-name text-center">
+			<div class="head-name">
 				<h1 class="display-5 font-weight-extra">Salah Belouad</h1>
 				<p class="lead text-secondary">Designer/Creative Directore</p>
 			</div>
-			<ul class="list-unstyled">
+			<ul class="head-menu list-unstyled">
 				{% for list in site.menu %}
 				<li class="{% if page.url == list.url %} active {% endif %}"><a href="{{list.url}}">{{list.name}}</a></li>
 				{% endfor %}
