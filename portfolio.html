@@ -1,6 +1,14 @@
 ---
 layout: default
 ---
-<section id="resume">
-	<h6 class="h6 text-center font-weight-extra text-dark">Portfolio.</h6>
+<section id="portfolio">
+	<div class="container">
+		<h5 class="h5 text-center font-weight-extra text-dark mb-3">Portfolio.</h5>
+		<ul class="d-flex list-unstyled justify-content-center py-3 b-dsh">
+			{% for filter in site.data.home.filter %}
+			<li class="px-4 {{filter.class}}"><a href="">{{filter.name}}</a></li>
+			{% endfor %}
+		</ul>
+	</div>
+	
 </section>

@@ -46,6 +46,10 @@ p {
   border-bottom: 2px solid #eaeaea;
 }
 
+.b-dsh {
+  border: 2px dashed #eaeaea;
+}
+
 /*--->> PAGES <<-----*/
 #head .head-menu li {
   color: #666;
@@ -68,6 +72,7 @@ p {
   text-transform: uppercase;
   border: 1px solid #CDA778;
   color: #CDA778;
+  border-radius: 50px;
 }
 
 #home .home-card .card-avatar .btn:hover {

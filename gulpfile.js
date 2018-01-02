@@ -7,7 +7,7 @@ const autoprefixer = require('autoprefixer');
 gulp.task("scss", () => {
 	const plugins = [
 		uncss({
-			html: ['index.html', '_includes/*.html', '_layouts/*.html'],
+			html: ['*.html', './portfolio.html', '_includes/*.html', '_layouts/*.html'],
 			ignore: ['.fade']
 		}),
 		autoprefixer({

@@ -18,7 +18,7 @@ layout: default
 				<div class="home-card d-flex align-items-center px-4">
 					<div class="card-avatar text-center">
 						<img class="img-fluid img-thumbnail rounded-circle d-block" src="{{site.baseurl}}/assets/img/image-2.png">
-						<button type="button" class="btn btn-outline-warning mt-3">Download Now</button>
+						<button type="button" class="btn btn-outline-warning mt-3 ">Download Now</button>
 					</div>
 					<div class="card-text pl-5">
 						<h2 class="h2 font-weight-bold text-dark">work hard</h2>
@@ -47,7 +47,7 @@ layout: default
 				<div class="d-grid justify-content-center align-items-center h-100">
 					{% for gallery in site.data.home.gallery %}
 					<div class="gallery-img">
-						<img class="img-fluid img-thumbnail" src="{{site.baseurl}}{{gallery.img}}" alt="{{gallery.alt}}">
+						<img class="img-fluid img-thumbnail" src="{{site.baseurl}}/{{gallery.img}}" alt="{{gallery.alt}}">
 					</div>
 					{% endfor %}
 				</div>

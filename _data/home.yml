@@ -14,3 +14,12 @@ gallery:
   - {img: "assets/img/2.jpg", alt: "Gallery 02"}
   - {img: "assets/img/3.jpg", alt: "Gallery 03"}
   - {img: "assets/img/4.jpg", alt: "Gallery 04"}
+
+filter:
+  - {name: all, alt: all, class: "selected"}
+  - {name: "Creative Direction", alt: all}
+  - {name: "Web", alt: all}
+  - {name: "Photography", alt: all}
+  - {name: "Ui/Ux", alt: all}
+  - {name: "Video", alt: all}
+  - {name: "Illustration", alt: all}
