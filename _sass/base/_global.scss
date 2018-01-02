@@ -6,3 +6,10 @@
 body {
 	font-family: 'Montserrat', sans-serif;
 }
+a {
+	color: inherit;
+	&:hover {
+		text-decoration: none;
+		color: inherit;
+	}
+}

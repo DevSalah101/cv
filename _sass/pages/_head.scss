@@ -1,0 +1,10 @@
+#head {
+	.head-menu li {
+		color: #666;
+		font-weight: 500;
+	}
+	.head-menu li.active,  .head-menu li:hover {
+		color: $main-color;
+		transition: all 300ms ease-in-out;
+	}
+}

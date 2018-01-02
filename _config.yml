@@ -8,8 +8,8 @@ sass:
   sass_dir: assets/css
   style: :expanded
 
-  menu:
-    - {name: profile, url: /}
-    - {name: resume, url: /resume/}
-    - {name: portfolio, url: /portfolio/}
-    - {name: contact, url: /contact/}
+menu:
+  - {name: profile, url: /}
+  - {name: resume, url: /resume/}
+  - {name: portfolio, url: /portfolio/}
+  - {name: contact, url: /contact/}

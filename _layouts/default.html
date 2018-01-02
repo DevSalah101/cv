@@ -5,25 +5,29 @@
 <head>
 	{% include head.html %}
 </head>
-<body>
+<body class="bg-light">
 	<!-- Start Header Section -->
-	<header id="head" class="my-4 bg-white text-center">
+	<header id="head" class="my-5 text-center">
 		<div class="container">
 			<div class="head-name">
 				<h1 class="display-5 font-weight-extra">Salah Belouad</h1>
-				<p class="lead text-secondary">Designer/Creative Directore</p>
+				<p class="text-secondary">Designer/Creative Directore</p>
 			</div>
-			<ul class="head-menu list-unstyled">
+			<ul class="head-menu list-unstyled d-flex justify-content-center pt-3">
 				{% for list in site.menu %}
-				<li class="{% if page.url == list.url %} active {% endif %}"><a href="{{list.url}}">{{list.name}}</a></li>
+				<li class="{% if page.url == list.url %} active {% endif %} px-4"><a href="{{list.url}}">{{list.name}}</a></li>
 				{% endfor %}
 			</ul>
+			<div class="divider"></div>
 		</div>
 	</header>
 	<!-- End Header Section -->
 	{{content}}
-	<footer id="foot">
-		<h1>Foot</h1>
+	<footer id="foot" class="text-center my-5">
+		<div class="container">
+			<div class="divider"></div>
+			<p class="text-secondary py-4">Copyright &copy; 2018  dev.salah all right reserved.</p>
+		</div>
 	</footer>
 </body>
 </html>

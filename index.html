@@ -1,4 +1,22 @@
 ---
 layout: default
 ---
-<h1>Home Page</h1>
+<section id="home">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="home-info text-center bg-white py-5">
+					<h6 class="h6">General<br>information</h6>
+					<ul class="list-unstyled">
+						{% for info in site.data.home.general-info %}
+						<li class="pt-2"><span class="d-inline">{{info.title}}</span><p class="text-secondary">{{info.text}}</p></li>
+						{% endfor %}
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-8">work</div>
+		</div>
+	</div>
+
+	<div class="container"></div>
+</section>
