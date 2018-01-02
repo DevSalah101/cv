@@ -28,6 +28,10 @@ a:hover {
   border-bottom: 1px solid #ececec;
 }
 
+.m-color {
+  color: #CDA778;
+}
+
 /*--->> PAGES <<-----*/
 #head .head-menu li {
   color: #666;
