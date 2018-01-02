@@ -2,3 +2,15 @@ general-info:
   - {title: "name", text: "salah belouad"}
   - {title: "date of birth", text: "28 may 1994"}
   - {title: "address", text: "db el massi n 123 syba <br>marrakech"}
+
+skills-info:
+  - {title: "year in business", text: "5"}
+  - {title: "degree", text: "mba"}
+  - {title: "hbbies", text: "driving"}
+  - {title: "languages", text: "english"}
+
+gallery:
+  - {img: "assets/img/1.jpg", alt: "Gallery 01"}
+  - {img: "assets/img/2.jpg", alt: "Gallery 02"}
+  - {img: "assets/img/3.jpg", alt: "Gallery 03"}
+  - {img: "assets/img/4.jpg", alt: "Gallery 04"}

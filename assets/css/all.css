@@ -36,6 +36,16 @@ p {
   color: #CDA778;
 }
 
+.d-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+}
+
+.b-bottom {
+  border-bottom: 2px solid #eaeaea;
+}
+
 /*--->> PAGES <<-----*/
 #head .head-menu li {
   color: #666;
@@ -47,4 +57,24 @@ p {
   -webkit-transition: all 300ms ease-in-out;
   -o-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
+}
+
+#home .home-card {
+  border: 2px dashed #ececec;
+  height: 100%;
+}
+
+#home .home-card .card-avatar .btn {
+  text-transform: uppercase;
+  border: 1px solid #CDA778;
+  color: #CDA778;
+}
+
+#home .home-card .card-avatar .btn:hover {
+  background: #CDA778;
+  color: white;
+}
+
+#home .home-card .card-text .text-secondary {
+  line-height: 2;
 }

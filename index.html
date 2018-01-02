@@ -4,8 +4,8 @@ layout: default
 <section id="home">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-4">
-				<div class="home-info text-center bg-white py-5">
+			<div class="col-md-3">
+				<div class="home-info text-center bg-white py-5 b-bottom">
 					<h6 class="h6 m-color">General<br>information</h6>
 					<ul class="list-unstyled">
 						{% for info in site.data.home.general-info %}
@@ -14,21 +14,56 @@ layout: default
 					</ul>
 				</div>
 			</div>
-			<div class="col-md-8 align-items-center">
-				<div class="home-card d-flex align-items-center" style="height: 100%">
+			<div class="col-md-9 align-items-center">
+				<div class="home-card d-flex align-items-center px-4">
 					<div class="card-avatar text-center">
-						<img class="img-fluid img-thumbnail rounded-circle d-block" src="http://via.placeholder.com/180x180">
-						<button type="button" class="btn btn-secondary mt-3">Download Now</button>
+						<img class="img-fluid img-thumbnail rounded-circle d-block" src="{{site.baseurl}}/assets/img/image-2.png">
+						<button type="button" class="btn btn-outline-warning mt-3">Download Now</button>
 					</div>
 					<div class="card-text pl-5">
-						<h2 class="h2 font-weight-bold">work hard</h2>
+						<h2 class="h2 font-weight-bold text-dark">work hard</h2>
 						<span>&amp; Be Nice To People</span>
-						<p class="mt-3 text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint nihil a, repudiandae? Deleniti ut beatae eos, quo harum eveniet. Expedita debitis inventore hic voluptas voluptate deserunt eius beatae, vitae consequatur.</p>
+						<p class="mt-3 text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint nihil a, repudiandae? Deleniti ut beatae eos, quo harum eveniet.</p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<div class="container"></div>
+	<div class="container pt-4">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="home-info text-center bg-white py-5 b-bottom">
+					<h6 class="h6 m-color">Skills</h6>
+					<ul class="list-unstyled">
+						{% for info in site.data.home.skills-info %}
+						<li class="pt-4"><span class="d-inline">{{info.title}}</span><p class="text-secondary">{{info.text}}</p></li>
+						{% endfor %}
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="d-grid justify-content-center align-items-center h-100">
+					{% for gallery in site.data.home.gallery %}
+					<div class="gallery-img">
+						<img class="img-fluid img-thumbnail" src="{{site.baseurl}}{{gallery.img}}" alt="{{gallery.alt}}">
+					</div>
+					{% endfor %}
+				</div>
+			</div>
+
+			<div class="col-md-3">
+				<div class="home-info text-center bg-white py-5">
+					<h6 class="h6 m-color">Network</h6>
+					<ul class="list-unstyled">
+						{% for info in site.data.home.skills-info %}
+						<li class="pt-4"><span class="d-inline">{{info.title}}</span><p class="text-secondary">{{info.text}}</p></li>
+						{% endfor %}
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
 </section>
