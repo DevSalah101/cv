@@ -1,0 +1,8 @@
+skills:
+  - {name: "Art Direction", pers: "60%"}
+  - {name: "Conception", pers: "80%"}
+  - {name: "UI/Ux", pers: "90%"}
+  - {name: "Graphic Design", pers: "70%"}
+  - {name: "Photography", pers: "50%"}
+  - {name: "Web", pers: "90%"}
+  - {name: "Creative Direction", pers: "60%"}
