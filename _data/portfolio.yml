@@ -1,0 +1,13 @@
+works:
+  - {img: "assets/img/1.jpg", name: 'application', date: '05 july 2017', likes: "7"}
+  - {img: "assets/img/2.jpg", name: 'application', date: '05 july 2017', likes: "7"}
+  - {img: "assets/img/3.jpg", name: 'application', date: '05 july 2017', likes: "7"}
+  - {img: "assets/img/4.jpg", name: 'application', date: '05 july 2017', likes: "7"}
+  - {img: "assets/img/5.jpg", name: 'application', date: '05 july 2017', likes: "7"}
+  - {img: "assets/img/6.jpg", name: 'application', date: '05 july 2017', likes: "7"}
+  - {img: "assets/img/7.jpg", name: 'application', date: '05 july 2017', likes: "7"}
+  - {img: "assets/img/8.jpg", name: 'application', date: '05 july 2017', likes: "7"}
+  - {img: "assets/img/9.jpg", name: 'application', date: '05 july 2017', likes: "7"}
+  - {img: "assets/img/10.jpg", name: 'application', date: '05 july 2017', likes: "7"}
+  - {img: "assets/img/11.jpg", name: 'application', date: '05 july 2017', likes: "7"}
+  - {img: "assets/img/12.jpg", name: 'application', date: '05 july 2017', likes: "7"}

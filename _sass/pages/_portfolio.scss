@@ -1,0 +1,19 @@
+#portfolio {
+	.filter-menu li {
+		transition: all 300ms ease-in-out;
+	}
+	.filter-menu li:first-of-type,  .filter-menu li:hover{
+		background: $main-color;
+		color: white !important;
+	}
+	.card {
+		border: 0;
+		&-body {
+			border: 1px dashed #ececec;
+		}
+		&:hover {
+			.overlay{transform: scale(1)}
+			.text-dark {color: $main-color !important}
+		}
+	}
+}

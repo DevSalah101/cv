@@ -6,10 +6,10 @@ const autoprefixer = require('autoprefixer');
 
 gulp.task("scss", () => {
 	const plugins = [
-		uncss({
-			html: ['*.html', './portfolio.html', '_includes/*.html', '_layouts/*.html'],
-			ignore: ['.fade']
-		}),
+		// uncss({
+		// 	html: ['*.html', './portfolio.html', '_includes/*.html', '_layouts/*.html'],
+		// 	ignore: ['.fade']
+		// }),
 		autoprefixer({
 			browsers: ['last 5 versions'],
 			casecase: false

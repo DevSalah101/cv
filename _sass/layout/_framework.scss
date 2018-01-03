@@ -18,6 +18,29 @@
 .b-dsh {
 	border: 2px dashed #eaeaea;
 }
-.selected {
-	background: $main-color;	
+.text-laser {
+	color: $main-color;
+}
+.bg-laser {
+	background: $main-color;
+}
+.bg-proto {
+	background: #7A6955;
+}
+.icon {
+	display: inline-block;
+}
+.overlay {
+	top: 0;
+	bottom: 0;
+	background: rgba($main-color, .5);
+	transition: .5s;
+	transform: scale(0);
+	.icon {
+		z-index: 2;
+		width: 40px;
+		height: 40px;
+		line-height: 38px;
+		border: 2px solid #fff;
+	}
 }

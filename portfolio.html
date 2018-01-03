@@ -4,11 +4,31 @@ layout: default
 <section id="portfolio">
 	<div class="container">
 		<h5 class="h5 text-center font-weight-extra text-dark mb-3">Portfolio.</h5>
-		<ul class="d-flex list-unstyled justify-content-center py-3 b-dsh">
+		<ul class="filter-menu d-flex list-unstyled justify-content-center py-3 b-dsh">
 			{% for filter in site.data.home.filter %}
-			<li class="px-4 {{filter.class}}"><a href="">{{filter.name}}</a></li>
+			<li class="mx-4 px-2 text-secondary"><a href="">{{filter.name}}</a></li>
 			{% endfor %}
 		</ul>
+		<div class="row">
+			{% for work in site.data.portfolio.works %}
+			<div class="col-md-3">
+				<div class="card mb-4">
+					  <div class="card-photo position-relative">
+					  	<img class="card-img-top img-fluid" src="{{site.baseurl}}/{{work.img}}" alt="Card image cap">
+						<div class="overlay d-flex position-absolute h-100 w-100 justify-content-center align-items-center"><i class="icon icon-plus text-white text-center rounded-circle"></i></div>
+					  </div>
+					  <div class="card-body d-flex justify-content-between">
+					    <div class="card-text">
+					    	<a href="{{post.url}}"><h4 class="h6 text-dark font-weight-bold">{{work.name}}</h4></a>
+						<p class="card-date text-secondary">{{work.date}}</p>
+					    </div>
+					    <p class="text-muted"><i class="icon icon-heart"></i> <span>{{work.likes}}</span></p>
+				  </div>
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+		<div class="load-more text-center font-weight-bold"><p class="text-dark">Load More</p> <i class="icon icon-down-open-mini text-laser"></i></div>
 	</div>
 	
 </section>

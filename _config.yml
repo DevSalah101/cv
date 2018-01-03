@@ -12,4 +12,11 @@ menu:
   - {name: profile, url: /}
   - {name: resume, url: /resume/}
   - {name: portfolio, url: /portfolio/}
+  - {name: blog, url: /blog/}
   - {name: contact, url: /contact/}
+
+social-icons:
+  - {icon: "icon icon-facebook", name: "facebook"}
+  - {icon: "icon icon-dribbble", name: "twitter"}
+  - {icon: "icon icon-behance", name: "behance"}
+  - {icon: "icon icon-instagram", name: "instagram"}

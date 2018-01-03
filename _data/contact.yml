@@ -1,0 +1,4 @@
+contact-info:
+  - {title: "address", text: "445 Mount Eden Road,<br> Mount Eden,<br> Auckland"}
+  - {title: "telephone", text: "+1 123 456 7890"}
+  - {title: "email", text: "me@devsalah.com"}

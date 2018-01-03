@@ -1,0 +1,58 @@
+---
+layout: default
+---
+<section id="contact">
+	<div class="container">
+		<h5 class="h5 text-center font-weight-extra text-dark mb-3">Get In Touch.</h5>
+		<div class="maps bg-proto d-flex justify-content-center flex-column align-items-center text-center">
+			<div class="maps-location bg-light p-3 position-relative">
+				<h6 class="h6 text-dark font-weight-bold">Salah Belouad</h6>
+				<i class="icon icon-location text-laser"></i>
+				<p class="text-laser m-0">Get Directions</p>
+			</div>
+		</div>
+
+		<div class="row mt-4 ">
+			<div class="col-md-3">
+				<div class="contact-info bg-white text-center py-5 b-bottom h-100">
+					<h6 class="h6 text-laser">Contact <br> Information</h6>
+					<ul class="list-unstyled">
+						{% for info in site.data.contact.contact-info %}
+						<li class="pt-4"><span class="d-inline">{{info.title}}</span><p class="text-secondary">{{info.text}}</p></li>
+						{% endfor %}
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-9">
+				<form action="" class="b-dsh h-100 p-5 d-flex flex-column justify-content-center">
+					<h6 class="h6 text-dark font-weight-bold">Drop Me Line</h6>
+					<div class="row pt-5">
+						<div class="col-md-6">
+							<div class="form-group">
+							    <label for="name text-secondary" class="text-secondary">Name</label>
+							    <input type="text" class="form-control" id="name">
+							</div>
+							<div class="form-group">
+							    <label for="mail" class="text-secondary">Email</label>
+							    <input type="email" class="form-control" id="mail">
+							</div>
+							<div class="form-group">
+							    <label for="website" class="text-secondary">website</label>
+							    <input type="text" class="form-control" id="website">
+							</div>
+						</div>
+						<div class="col-md-6">
+						  <div class="form-group">
+						    <label for="message" class="text-secondary">Message</label>
+						    <textarea class="form-control" id="message" rows="4"></textarea>
+						 </div>
+						 <div class="form-group d-flex justify-content-end">
+							<button type="submit" class="btn btn-laser">Send</button>	
+						  </div>	
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</section>
