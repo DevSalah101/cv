@@ -12093,6 +12093,53 @@ p {
   color: #CDA778 !important;
 }
 
+#blogs .form-group .form-control {
+  border: 1px solid #efefef !important;
+  border-radius: 0;
+  padding: 7px 10px;
+}
+
+#blogs .form-group .icon {
+  top: 4px;
+  right: 7px;
+}
+
+#blogs .categories ul li {
+  padding: 10px;
+  border: 1px solid #ececec;
+  margin-bottom: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#blogs .categories ul li span {
+  border: 2px solid #CDA778;
+  width: 35px;
+  text-align: center;
+  border-radius: 50px;
+  height: 20px;
+  line-height: 16px;
+  color: #CDA778;
+}
+
+#blogs .tags ul {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#blogs .tags li {
+  font-size: 14px;
+  border: 1px solid #ececec;
+  padding: 10px;
+  margin: 10px;
+  margin-left: 0;
+  background: #fff;
+}
+
 #contact .maps {
   background: url("../img/map.png");
   background-size: cover;

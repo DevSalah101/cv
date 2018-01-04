@@ -1,0 +1,44 @@
+#blogs {
+	.form-group {
+		.form-control {
+			border: 1px solid #efefef !important;;
+			border-radius: 0;
+			padding: 7px 10px;
+		}
+		.icon {
+			top: 4px;
+			right: 7px;
+		}
+	}
+	.categories {
+		ul li {
+			padding: 10px;
+			border: 1px solid #ececec;
+			margin-bottom: 15px;
+			display: flex;
+			justify-content: space-between;
+			span {
+				border: 2px solid $main-color;
+				width: 35px;
+				text-align: center;
+				border-radius: 50px;
+				height: 20px;
+				line-height: 16px;
+				color: $main-color;
+			}
+		}
+	}
+	.tags {
+		ul {
+			flex-wrap: wrap;
+		}
+		li {
+			font-size: 14px;
+			border: 1px solid #ececec;
+			padding: 10px;
+			margin: 10px;
+			margin-left: 0;
+			background: #fff;
+		}
+	}
+}
