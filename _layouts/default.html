@@ -15,7 +15,7 @@
 			</div>
 			<ul class="head-menu list-unstyled d-flex justify-content-center pt-5">
 				{% for list in site.menu %}
-				<li class="{% if page.url == list.url %} active {% endif %} px-4"><a href="{{site.baseurl}}{{list.url}}">{{list.name}}</a></li>
+				<li class="{% if page.url == list.url %} active {% endif %} px-4 font-weight-bold text-muted"><a href="{{site.baseurl}}{{list.url}}">{{list.name}}</a></li>
 				{% endfor %}
 			</ul>
 			<div class="divider"></div>

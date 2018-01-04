@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 a {
@@ -92,7 +92,7 @@ p {
 }
 
 .text-secondary {
-  color: #B2B2B2 !important;
+  color: #7E7E7E !important;
 }
 
 .line-height {
@@ -11936,13 +11936,8 @@ p {
 
 /* '' */
 /*--->> PAGES <<-----*/
-#head .head-menu li {
-  color: #666;
-  font-weight: 500;
-}
-
 #head .head-menu li.active, #head .head-menu li:hover {
-  color: #CDA778;
+  color: #CDA778 !important;
   -webkit-transition: all 300ms ease-in-out;
   -o-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
