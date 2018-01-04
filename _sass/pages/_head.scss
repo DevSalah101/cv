@@ -3,4 +3,7 @@
 		color: $main-color !important;
 		transition: all 300ms ease-in-out;
 	}
+	.head-menu li a:focus {
+		outline: none;
+	}
 }

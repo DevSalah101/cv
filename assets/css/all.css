@@ -11943,6 +11943,10 @@ p {
   transition: all 300ms ease-in-out;
 }
 
+#head .head-menu li a:focus {
+  outline: none;
+}
+
 #home .home-card {
   border: 2px dashed #ececec;
   height: 100%;
