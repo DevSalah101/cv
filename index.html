@@ -6,10 +6,10 @@ layout: default
 		<div class="row">
 			<div class="col-md-3">
 				<div class="home-info text-center bg-white py-5 b-bottom">
-					<h6 class="h6 m-color">General<br>information</h6>
+					<h6 class="h6 m-color font-weight-extra">General<br>information</h6>
 					<ul class="list-unstyled">
 						{% for info in site.data.home.general-info %}
-						<li class="pt-4"><span class="d-inline">{{info.title}}</span><p class="text-secondary">{{info.text}}</p></li>
+						<li class="pt-4"><span class="d-inline font-weight-bold">{{info.title}}</span><p class="text-secondary">{{info.text}}</p></li>
 						{% endfor %}
 					</ul>
 				</div>
@@ -34,10 +34,10 @@ layout: default
 		<div class="row">
 			<div class="col-md-3">
 				<div class="home-info text-center bg-white py-5 b-bottom h-100">
-					<h6 class="h6 m-color">Skills</h6>
+					<h6 class="h6 m-color font-weight-extra">Skills</h6>
 					<ul class="list-unstyled">
 						{% for info in site.data.home.skills-info %}
-						<li class="pt-4"><span class="d-inline">{{info.title}}</span><p class="text-secondary">{{info.text}}</p></li>
+						<li class="pt-4"><span class="d-inline font-weight-bold">{{info.title}}</span><p class="text-secondary">{{info.text}}</p></li>
 						{% endfor %}
 					</ul>
 				</div>
@@ -56,7 +56,7 @@ layout: default
 
 			<div class="col-md-3">
 				<div class="social-icons text-center b-dsh py-5 h-100">
-					<h6 class="h6 text-dark">Network</h6>
+					<h6 class="h6 text-dark font-weight-extra">Network</h6>
 					<ul class="list-unstyled">
 						{% for social in site.social-icons%}
 						<li class="pt-4 text-secondary">

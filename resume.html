@@ -48,20 +48,20 @@ layout: default
 					<div class="card-avatar text-center">
 						<img class="img-fluid img-thumbnail rounded-circle" src="{{site.baseurl}}/assets/img/image-1.png">
 					</div>
-					<h6 class="h6 m-color mt-3">General<br>information</h6>
+					<h6 class="h6 m-color mt-3 font-weight-extra">General<br>information</h6>
 					<ul class="list-unstyled">
 						{% for info in site.data.home.general-info %}
-						<li class="pt-4"><span class="d-inline">{{info.title}}</span><p class="text-secondary">{{info.text}}</p></li>
+						<li class="pt-4"><span class="d-inline font-weight-bold">{{info.title}}</span><p class="text-secondary">{{info.text}}</p></li>
 						{% endfor %}
 					</ul>
 					<button type="button" class="btn btn-outline-warning mt-3 ">Download Now</button>
 				</div>
 				<div class="home-info text-center b-dsh py-5 b-bottom mt-4">
-					<h6 class="h6 mb-4">Skills And Expertize</h6>
+					<h6 class="h6 mb-4 font-weight-extra">Skills And Expertize</h6>
 					<ul class="list-unstyled px-3">
 						{% for skill in  site.data.resume.skills %}
 						<li>
-							<small class="d-block text-secondary">{{skill.name}}</small>
+							<small class="d-block text-secondary font-weight-bold">{{skill.name}}</small>
 							<div class="skill-progress bg-white my-3"><span class="d-block  bg-laser h-100" style="width: {{skill.pers}}"></span></div>
 						</li>
 						{% endfor %}
