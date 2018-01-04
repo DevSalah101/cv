@@ -18,6 +18,7 @@
 		}
 		.info:hover:after {
 			visibility: visible;
+			transition: all 300ms ease-in-out;
 		}
 		.info:before {
 			content: "";
@@ -39,7 +40,7 @@
 			top: 9px;
 			left: 9px;
 			visibility: hidden;
-			transition: all 300ms ease-in-out;
+
 		}
 	}
 	.awards {

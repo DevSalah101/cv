@@ -12014,6 +12014,9 @@ p {
 
 #resume .title .info:hover:after {
   visibility: visible;
+  -webkit-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
 }
 
 #resume .title .info:before {
@@ -12037,9 +12040,6 @@ p {
   top: 9px;
   left: 9px;
   visibility: hidden;
-  -webkit-transition: all 300ms ease-in-out;
-  -o-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
 }
 
 #resume .awards > h6:before {
