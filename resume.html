@@ -7,12 +7,43 @@ layout: default
 		<p class="quots font-weight-bold b-dsh py-3 b-dsh text-dark text-center">Think Big. Start Small. Scale Fast</p>
 
 		<div class="row my-3">
-			<div class="col-md-9 h-100">
-				<div class="">
-					<h6>Experiece <i class="icon icon-sort-down"></i></h6>
+			<div class="col-md-9">
+				<div class="content h-100 b-solid pl-4 py-4">
+					<div class="title experiece">
+						<h6 class="h6 text-dark position-relative font-weight-extra">Experiece <i class="icon icon-sort-down text-laser"></i></h6>
+						{% for expinfo in site.data.resume.experiece %}
+						<div class="info mt-4 px-5 position-relative">
+							<h6 class="h6 text-laser font-weight-bold">{{expinfo.title}}</h6>
+							<small class="text-dark d-block font-weight-bold">{{expinfo.date}}</small>
+							<p class="text-secondary py-4 line-height font-14">{{expinfo.text}}</p>
+						</div>
+						{% endfor %}
+					</div>
+					<div class="title education">
+						<h6 class="h6 text-dark position-relative font-weight-extra mt-3">education <i class="icon icon-sort-down text-laser"></i></h6>
+						{% for expinfo in site.data.resume.education %}
+						<div class="info mt-4 px-5 position-relative">
+							<h6 class="h6 text-laser font-weight-bold">{{expinfo.title}}</h6>
+							<small class="text-dark d-block font-weight-bold">{{expinfo.date}}</small>
+							<p class="text-secondary py-4 line-height font-14">{{expinfo.text}}</p>
+						</div>
+						{% endfor %}
+					</div>
+					<div class="title awards">
+						<h6 class="h6 text-dark position-relative font-weight-extra mt-4">Awards and recognitions <i class="icon icon-sort-down text-laser"></i></h6>
+						{% for expinfo in site.data.resume.awards %}
+						<div class="info mt-4 px-5 position-relative">
+							<h6 class="h6 text-laser font-weight-bold line-height">{{expinfo.title}}</h6>
+							<p class="text-secondary py-4 font-14 line-height">{{expinfo.text}}</p>
+						</div>
+						{% endfor %}
+						<div class="info mt-4 px-5 position-relative">
+							<h6 class="h6 text-dark font-weight-extra">More Awards</h6>
+						</div>
+					</div>
 				</div>
 			</div>
-			<div class="col-md-3 h-100">
+			<div class="col-md-3 h-100 position-sticky fixed-top">
 				<div class="home-info text-center bg-white py-5 b-bottom">
 					<div class="card-avatar text-center">
 						<img class="img-fluid img-thumbnail rounded-circle" src="{{site.baseurl}}/assets/img/image-1.png">
@@ -25,7 +56,7 @@ layout: default
 					</ul>
 					<button type="button" class="btn btn-outline-warning mt-3 ">Download Now</button>
 				</div>
-				<div class="home-info text-center b-dsh py-5 b-bottom mt-3">
+				<div class="home-info text-center b-dsh py-5 b-bottom mt-4">
 					<h6 class="h6 mb-4">Skills And Expertize</h6>
 					<ul class="list-unstyled px-3">
 						{% for skill in  site.data.resume.skills %}

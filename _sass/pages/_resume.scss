@@ -1,4 +1,52 @@
 #resume {
+	.title {
+		> h6 {
+			&:before {
+				content: "";
+				display: block;
+				background: rgba(#eaeaea, .5);
+				position: absolute;
+				top: calc(50% - 2px);
+				width: 84%;
+				height: 4px;
+				right: 0;
+			}
+			.icon {
+				position: absolute;
+				top: -3px;
+			}
+		}
+		.info:hover:after {
+			visibility: visible;
+		}
+		.info:before {
+			content: "";
+			display: block;
+			position: absolute;
+			width: 25px;
+			height: 25px;
+			border: 4px solid #CDA778;
+			left: 0;
+		}
+		.info:after {
+			content: "";
+			background: #CDA778;
+			width: 7px;
+			height: 7px;
+			border-radius: 50%;
+			display: block;
+			position: absolute;
+			top: 9px;
+			left: 9px;
+			visibility: hidden;
+			transition: all 300ms ease-in-out;
+		}
+	}
+	.awards {
+		> h6:before {
+			width: 64%;
+		}
+	}
 	.btn {
 		text-transform: uppercase;
 		border: 1px solid $main-color;

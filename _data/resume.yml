@@ -6,3 +6,15 @@ skills:
   - {name: "Photography", pers: "50%"}
   - {name: "Web", pers: "90%"}
   - {name: "Creative Direction", pers: "60%"}
+
+experiece:
+  - {title: "Product Designer. Connecto", date: "Aug 2018 - present", text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique quasi voluptate, fuga accusamus sunt id earum voluptatem omnis. Asperiores facilis hic nobis quis vel cupiditate harum, quisquam neque similique dolorem!"}
+  - {title: "Visual Designer &amp; Design Lead. Yahoo", date: "may 2017 - Aug 2018", text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique quasi voluptate, fuga accusamus sunt id earum voluptatem"}
+  - {title: "Visual Designer &amp; Design Lead. Yahoo", date: "Aug 2018 - present", text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique quasi voluptate, fuga accusamus sunt"}
+  - {title: "Designer. Freelance", date: "Aug 2008 - may 2011", text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique quasi voluptate, fuga accusamus sunt id earum voluptatem omnis."}
+
+education:
+  - {title: "International Design University", date: "Aug 2018 - present", text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique quasi voluptate, fuga accusamus sunt id earum voluptatem omnis. Asperiores facilis hic nobis quis vel cupiditate harum, quisquam neque similique dolorem!"}
+
+awards:
+    - {title: "Www Award", text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique quasi voluptate, fuga accusamus sunt id earum voluptatem omnis. Asperiores facilis hic nobis quis vel cupiditate harum, quisquam neque similique dolorem!"}
