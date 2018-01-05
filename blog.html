@@ -7,11 +7,29 @@ title: Blogs
 		<h5 class="h5 text-center font-weight-extra text-dark mb-5">Blog.</h5>
 
 		<div class="row">
-			<div class="col-md-9"></div>
+			<div class="col-md-8">
+				<div class="row">
+					{% for post in site.categories.blog %}
+										<div class="col-md-6">
+						<div class="card mb-5">
+						  <div class="placeholde">
+						  	<img class="card-img-top" src="{{site.baseurl}}/{{post.img}}" alt="Card image cap">
+						  	<div class="over"></div>
+						  </div>
+						  <div class="card-body">
+						    <h5 class="card-title font-weight-extra">{{post.title}}</h5>
+						    <p class="card-text text-muted mb-2 font-14">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						    <a href="#" class="btn btn-outline-warning">Go somewhere</a>
+						  </div>
+						</div>
+					</div>
+					{% endfor %}
+				</div>
+			</div>
 
 
 			
-			<div class="col-md-3">
+			<div class="col-md-4 position-sticky fixed-top h-100">
 				<div class="search b-dsh p-3">
 					<h6 class="text-dark h6 font-weight-extra mb-4">Search</h6>
 					<form action="">
