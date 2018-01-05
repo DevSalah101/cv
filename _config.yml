@@ -17,6 +17,7 @@ menu:
 
 social-icons:
   - {icon: "icon icon-facebook", name: "facebook"}
-  - {icon: "icon icon-dribbble", name: "twitter"}
+  - {icon: "icon icon-twitter", name: "twitter"}
+  - {icon: "icon icon-dribbble", name: "dribbble"}
   - {icon: "icon icon-behance", name: "behance"}
   - {icon: "icon icon-instagram", name: "instagram"}
